@@ -58,6 +58,13 @@ fun main() {
     }
     // 위의 if 문이 끝나면 원래의 타입으로 돌아온다.
     // obj6.subMethod1()
+
+    // 매개변수가 Any 은 함수 호출
+    // Any 는 모든 클래스의 최상위 부모이고 코틀린에서 기본 자료형(Int, Float..)도 사실 클래스이다.
+    anyFunction(obj1)
+    anyFunction(obj2)
+    anyFunction(100)
+    anyFunction("안녕하세요")
 }
 
 class SubClass1 : SuperClass1(){
