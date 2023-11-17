@@ -67,6 +67,8 @@ fun main() {
     println("t11.testValue1 : ${t11?.testValue1}")
     println("t12.testValue1 : ${t12?.testValue1}")
 
+    // 메서드
+    // null이 들어가 있으면 메서드 호출이 취소된다.
     t11?.test1Method()
     t12?.test1Method()
 }
