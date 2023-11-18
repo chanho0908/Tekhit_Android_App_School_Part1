@@ -61,6 +61,14 @@ fun main() {
     // 변수에 객체의 주소값이 들어가 있다면 객체에 접근해 프로퍼티나 메서드를 사용한다.
     val t11:TestClass1? = null
     val t12:TestClass1? = TestClass1()
+
+    // 프로퍼티
+    // 객체를 가지고 있는 변수에 null이 들어가 있으면 프로퍼티 접근이 중단되고 null을 반환한다.
+    println("t11.testValue1 : ${t11?.testValue1}")
+    println("t12.testValue1 : ${t12?.testValue1}")
+
+    t11?.test1Method()
+    t12?.test1Method()
 }
 
 class TestClass1{
