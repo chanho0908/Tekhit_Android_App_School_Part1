@@ -55,6 +55,12 @@ fun main() {
 
     println("t7 : $t7, t9: $t9")
     println("t8 : $t8, t10: $t10")
+
+    // ? : 객체가 가지고 있는 프로퍼티나 메서드를 사용할 때 사용하는 연산자이다.
+    // 변수에 null 이 들어가 있으면 수행이 무시된다.
+    // 변수에 객체의 주소값이 들어가 있다면 객체에 접근해 프로퍼티나 메서드를 사용한다.
+    val t11:TestClass1? = null
+    val t12:TestClass1? = TestClass1()
 }
 
 class TestClass1{
