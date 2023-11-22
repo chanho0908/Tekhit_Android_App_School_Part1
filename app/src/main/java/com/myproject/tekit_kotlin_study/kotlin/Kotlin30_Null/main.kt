@@ -52,6 +52,9 @@ fun main() {
 
     var t9 = t7 ?: TestClass1()
     var t10 = t8 ?: TestClass1()
+
+    println("t7 : $t7, t9: $t9")
+    println("t8 : $t8, t10: $t10")
 }
 
 class TestClass1{
