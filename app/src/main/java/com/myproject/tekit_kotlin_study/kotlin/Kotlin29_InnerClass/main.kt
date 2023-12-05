@@ -32,6 +32,9 @@ fun main() {
         }
 
     }
+
+    obj4.interMethod1()
+    obj4.interMethod2()
 }
 
 // 일반 중첩 클래스
