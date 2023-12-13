@@ -1,4 +1,7 @@
 package com.myproject.tekit_kotlin_study.kotlin.Kotlin29_InnerClass
+
+import java.util.Objects
+
 // 중첩 클래스 : 클래스 안에 작성하는 클래스
 // 클래스안에서만 사용하는 클래스를 정의할 때 많이 사용한다.
 // 클래스 안에 있다고 해서 클래스를 가지고 있는 클래스에서만 객체를 생성할 수 있는 것은 아니다.
@@ -8,7 +11,27 @@ fun main() {
     // 내부 클래스의 객체 생성을 위해서 외부 클래스의 객체가 필요하다.
     val obj1 = Outer1()
     val obj2 = obj1.Inner1()
-    
+
+    // 다른 위치, 파일, 패키지, 모듈에 클래스를 작성했다면 저~~어기 가서 클래스 작성하고
+    // 요~~~기 와서 객체 생성하고 ..
+    val obj3 = TestClass1()
+    obj3.interMethod1()
+    obj3.interMethod2()
+
+    // 만약 익명 중첩 클래스를 사용한다면
+    // 클래스 작성과 메소드의 오버라이딩과 객체 생성을 모두 같은 곳에서 작업한다.
+    // 단, 이름이 없는 1회용 클래스이기 때문에 이 클래스를 더 이상 사용할 수 없다.
+    // object : 인터페이스나 추상 클래스
+    val obj4 = object: Inter1{
+        override fun interMethod1() {
+            println("익명 중첩 클래스의 innerMethod1")
+        }
+
+        override fun interMethod2() {
+            println("익명 중첩 클래스의 innerMethod2")
+        }
+
+    }
 }
 
 // 일반 중첩 클래스
