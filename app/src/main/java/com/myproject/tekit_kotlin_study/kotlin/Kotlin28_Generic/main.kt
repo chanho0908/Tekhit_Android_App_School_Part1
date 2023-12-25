@@ -24,6 +24,12 @@ fun main() {
     //val t7:TestClass1<SuperClass1> = TestClass3<SubClass1>()
     val t8: TestClass4<SubClass1> = TestClass4<SubClass1>()
     val t9: TestClass4<SubClass1> = TestClass4<SubClass1>()
+
+    // 반 공변성 : 변수에 설정한 제네릭이 객체를 생성했을 때 사용한 제네릭과 같거나 자식 클래스인 경우에
+    // 담을 수 있다.
+    val t11:TestClass5<SubClass1> = TestClass5<SubClass1>()
+    // val t12:TestClass5<SuperClass1> = TestClass5<SubClass1>()
+    val t13:TestClass5<SubClass2> = TestClass5<SubClass1>()
 }
 
 // < > : 안에 알바벳 문자를 넣어준다. 보통 대문자 한글자를 작성한다.
