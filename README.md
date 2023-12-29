@@ -8,3 +8,5 @@
 > + [Kotlin Operand](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin09_operand/main.kt)
 > + [Kotlin IF](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin10_IF/main.kt)
 > + [Kotlin When](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin11_When/main.kt)
+### 2023/12/29
+> + [Kotlin Loop](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin12_Loop/main.kt)
