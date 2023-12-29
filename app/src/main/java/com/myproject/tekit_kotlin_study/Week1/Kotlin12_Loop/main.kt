@@ -20,5 +20,5 @@ fun main(){
     println((10 downTo 1).toList())
     // downTo 도 step을 설정하면 감소 폭을 설정할 수 있다.
     println((10 downTo 1 step 2).toList())
-
+    println("---------------------------------------------")
 }
