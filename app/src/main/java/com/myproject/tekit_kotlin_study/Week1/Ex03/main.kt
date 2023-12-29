@@ -43,9 +43,7 @@ fun checkEra(input: String):String = when(input.toCharArray()[6]) {
 fun checkGender(input: String):String = when(input.toCharArray()[6]) {
     '1', '3', '9' -> "남성"
     '0', '2', '4' -> "여성"
-    '5' ->  "외국인 남성"
-    '6' ->  "외국인 여성"
-    '7' ->  "외국인 남성"
+    '5', '7' ->  "외국인 남성"
     else -> "외국인 여성"
 }
 

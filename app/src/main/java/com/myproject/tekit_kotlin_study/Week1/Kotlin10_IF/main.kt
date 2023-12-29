@@ -4,9 +4,6 @@ fun main(){
     // if 문 : 주어진 조건식의 결과가 true 인 경우에만 관리하는 코드가 수행된다.
 // { } 로 묶은 부분을 관리한다.
 
-    fun main(){
-
-    }
 
     val a1 = 10
 
@@ -82,4 +79,11 @@ fun main(){
         a4 = "10이 아닙니다"
     }
     println("a4 : $a4")
+
+    print(test("a"))
 }
+
+fun test(a: String): Int = if (a == "b") 1 else 0
+
+
+
