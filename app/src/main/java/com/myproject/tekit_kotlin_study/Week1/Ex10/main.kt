@@ -9,10 +9,10 @@ package com.myproject.tekit_kotlin_study.Week1.Ex10
 //조건 : 변수는 Int 타입의 변수만 사용한다.
 fun main(){
     var answer = 100
+    var answer2 = 0
     println(Integer.MAX_VALUE)
     for (i in 2..30){
-        println(answer)
-        answer += answer*3
+
     }
 
     //println(answer)
