@@ -10,3 +10,6 @@
 > + [Kotlin When](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin11_When/main.kt)
 ### 2023/12/29
 > + [Kotlin Loop](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin12_Loop/main.kt)
+### 2024/01/02
+> + [Kotlin BreakContinue](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin13_BreakContinue/main.kt)
+> + [Kotlin OOPBasic](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin14_OOPBasic/main.kt)
