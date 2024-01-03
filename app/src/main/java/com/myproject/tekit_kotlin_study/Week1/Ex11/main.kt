@@ -1,175 +1,69 @@
 package com.myproject.tekit_kotlin_study.Week1.Ex11
 
-import java.util.Scanner
-
-// 학생 3명들의 이름, 국어, 영어, 수학점수를 관리하는 프로그램을 작성한다.
-// 학생의 정보는 모두 입력을 받는다.
-// 입력이 완료된 후에 각 학생별 정보를 출력하고
-// 각 과목별 총점과 평균을 출력한다.
-
-// step1) 출력 화면을 구현한다.
-// 출력화면 구현시 필요한 데이터는 임의의 데이터로 설정해준다.
-
-// step2) 프로그램에서 필요한 기능들을 정리한다.
-// 1. 학생의 이름을 입력받는 기능
-// 2. 점수를 입력받는 기능
-// 3. 평균을 구하는 기능
-// 4. 총점을 계산하는 기능
-// 5. 출력하는 기능
-
-// step3) step3에서 정리한 기능들을 그룹으로 묶어 준다.
-// 1. 학생의 정보를 입력받는 기능 -> 학생
-// 2. 평균을 구하는 기능 -> 학생들
-// 3. 총점을 계산하는 기능 -> 학생들
-// 4. 각 학생들 정보를 출력하는 기능 -> 학생
-// 5. 학생들의 과목별 총점과 평균을 출력하는 기능 -> 학생들
-
-// step4) 출력 화면과 step2, step3에서 정의한 기능을 보고 필요한 데이터를 정리한다.
-// 필요할 데이터 : 화면을 구성하기 위해 필요한 데이터, 입력받는 데이터, 발생되는 데이터, 계산되는 데이터 등등
-// 학생의 이름
-// 학생의 국어 점수
-// 학생의 영어 점수
-// 학생의 수학 점수
-// 국어 총점
-// 영어 총점
-// 수학 총점
-// 국어 평균
-// 영어 평균
-// 수학 평균
-
-// step5) step4에서 정리한 변수들을 그룹으로 묶어 준다.
-// 학생의 이름 -> 학생
-// 학생의 국어 점수 -> 학생
-// 학생의 영어 점수 -> 학생
-// 학생의 수학 점수 -> 학생
-// 국어 총점 -> 학생들
-// 영어 총점 -> 학생들
-// 수학 총점 -> 학생들
-// 국어 평균 -> 학생들
-// 영어 평균 -> 학생들
-// 수학 평균 -> 학생들
-
-// step6) 클래스를 정의한다.
-// 클래스 내부에 변수를 작성해주고 메서드를 작성해준다.
-// 메서드의 코드는 아직 작성하지 않는다.
-
-// step7) 메서드 내부의 코드를 작성하고 이를 테스트 한다.
-
-// step8) main에서 필요한 만큼 객체를 생성하고 메서드를 호출하여 프로그램을 완성한다.
-
-// 주의!!! main에서는 절대로 객체가 관리하는 변수에 직접 접근하지 마세요
-
+// 객체 지향 프로그래밍(OOP, Object Oriented Programming)
+// 프로그램이 가져야 하는 다양한 기능들이나 변수들을 객체라는 단위로 나눠서 관리하는 기법
+// 객체지향 프로그래밍 기법에서는 객체를 만들기 위한 클래스를 설계하고 클래스를 통해
+// 필요한 만큼의 객체를 생성한다
+// 각 객체들은 서로 독립적인 존재이며 하나의 객체에는 그 객체가 가져야할 모든 변수(맴버 변수)와 모든
+// 함수(메서드)를 가지고 있어야 한다.
 fun main(){
-    // printResult()
+    // 객체를 생성한다.
+    // 객체가 생성되면 생성된 객체는 메모리에 자리를 잡는다.
+    // 생성된 객체를 출력하면
+    // 클래스이름@객체의일련번호 형태로 출력된다.
+    println(TestClass1())
+    // 객체가 생성되면 객체를 구분하기 위한 일련번호(흔히 객체의 주소값이라고 부른다)가
+    // 생성된다. 이 객체의 주소값은 모든 객체에게 다르게 부여된다.
+    // 객체는 객체의 주소값을 가지고 객체를 구분하고 지칭할 수 있다.
+    // 객체를 생성하게 되면 이 객체의 주소값이 반환되고 이를 변수에 담아 두었다가
+    // 객체를 사용하고자 할 때 객체의 주소값을 가지고 있는 변수를 통해 객체에 접근할 수 있다.
+    val obj1:TestClass1 = TestClass1()
+    println("obj1 : $obj1")
 
-    // Student 클래스의 inputStudentInfo 테스트
-//    val scanner = Scanner(System.`in`)
-//    val s1 = StudentClass()
-//    s1.inputStudentInfo(scanner)
-//
-//    println(s1.name)
-//    println(s1.kor)
-//    println(s1.eng)
-//    println(s1.math)
+    val obj2 = TestClass2()
+    println("obj2 : $obj2")
 
-    // StudentClass의 printStudentInfo 메서드 테스트
-//    val s1 = StudentClass()
-//    s1.name = "홍길동"
-//    s1.kor = 100
-//    s1.eng = 90
-//    s1.math = 80
-//
-//    s1.printStudentInfo()
+    val obj3 = TestClass3()
+    // 객체가 가지고 있는 맴버 변수나 맴버 메서드를 사용하려면
+    // . 연산자를 사용한다.
+    obj3.a1 = 100
+    obj3.a2 = 200
+    println("obj3.a1 : ${obj3.a1}")
+    println("obj3.a2 : ${obj3.a2}")
 
-    // StudentManagerClass의 getAvg 메서드 테스트
-//    val manager1 = StudentManagerClass()
-//    manager1.getAvg()
-//    println(manager1.korAvg)
-//    println(manager1.engAvg)
-//    println(manager1.mathAvg)
+    obj3.testMethod1()
+    obj3.testMethod2()
 }
 
-// 출력 화면 - 테스트용으로 나중에 지워주세요
-fun printResult(){
-    println("이름 : 홍길동")
-    println("국어 : 100점")
-    println("영어 : 90점")
-    println("수학 : 80점")
-    println()
-    println("이름 : 홍길동")
-    println("국어 : 100점")
-    println("영어 : 90점")
-    println("수학 : 80점")
-    println()
-    println("이름 : 홍길동")
-    println("국어 : 100점")
-    println("영어 : 90점")
-    println("수학 : 80점")
-    println()
-    println("국어 총점 : 300점")
-    println("영어 총점 : 270점")
-    println("수학 총점 : 240점")
-    println("국어 평균 : 100점")
-    println("영어 평균 : 90점")
-    println("수학 평균 : 80점")
+// 클래스를 정의한다.
+// class 클래스이름
+class TestClass1{
+
 }
 
-// 학생 클래스
-class StudentClass{
-    var name = ""
-    var kor = 0
-    var eng = 0
-    var math = 0
+// 코틀린에서는 클래스 내부에 코드가 없다면 { } 생략이 가능하다.
+class TestClass2
 
-    // 학생의 정보를 입력받는 메서드
-    fun inputStudentInfo(scanner:Scanner){
-        print("이름 : ")
-        name = scanner.next()
-        print("국어 : ")
-        kor = scanner.nextInt()
-        print("영어 : ")
-        eng = scanner.nextInt()
-        print("수학 : ")
-        math = scanner.nextInt()
+// 객체가 가지는 변수를 맴버 변수라고 부른다.
+// 객체가 가지는 함수를 맴버 메서드라고 부른다.
+class TestClass3{
+
+    // 맴버 변수
+    var a1 = 0
+    var a2 = 0
+
+    // 맴버 메서드
+    fun testMethod1(){
+        println("testMethod1")
     }
 
-    // 학생의 정보를 출력하는 메서드
-    fun printStudentInfo(){
-        println("이름 : $name")
-        println("국어 점수 : $kor")
-        println("영어 점수 : $eng")
-        println("수학 점수 : $math")
-        println()
+    fun testMethod2(){
+        println("testMethod2")
     }
 }
 
-// 학생들을 관리하는 클래스
-class StudentManagerClass{
-    var korTotal = 0
-    var engTotal = 0
-    var mathTotal = 0
-    var korAvg = 0
-    var engAvg = 0
-    var mathAvg = 0
-    // 학생 객체의 주소값을 담을 변수
-    val s1 = StudentClass()
-    val s2 = StudentClass()
-    val s3 = StudentClass()
-
-    // 과목별 평균을 구하는 메서드
-    fun getAvg(){
-        korAvg = (s1.kor + s2.kor + s3.kor) / 3
-        engAvg = (s1.eng + s2.eng + s3.eng) / 3
-        mathAvg = (s1.math + s2.math + s3.math) / 3
-    }
-    // 과목별 총점을 구하는 메서드
-    fun getTotal(){
-
-    }
-    // 과목별 총점과 평균을 출력하는 메서드
-    fun printResult() {
-
-    }
 
 
-}
+
+
+
