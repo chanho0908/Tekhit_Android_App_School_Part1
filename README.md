@@ -13,3 +13,6 @@
 ### 2024/01/02
 > + [Kotlin BreakContinue](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin13_BreakContinue/main.kt)
 > + [Kotlin OOPBasic](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin14_OOPBasic/main.kt)
+### 2024/01/03
+> + [Kotlin Contructor](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin15_Contructor/main.kt)
+> + [Kotlin Inherite](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin_16_inherite/main.kt)
