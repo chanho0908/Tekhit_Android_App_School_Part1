@@ -70,11 +70,78 @@ import java.util.Scanner
 
 // 주의!!! main에서는 절대로 객체가 관리하는 변수에 직접 접근하지 마세요
 fun main(){
+    // 학생 관리 객체 생성
+    val studentManger = StudentManger()
 
+    // 학생 정보 입력
+    studentManger.inputStudentsInfo()
+
+    // 학생 행동
+    studentManger.doStudent()
+
+    // 학생 정보 출력
+    studentManger.printStudentsInfo()
 }
 
 // 학생 관리
-class StudentManger
+class StudentManger{
+    lateinit var scanner: Scanner
+
+    lateinit var s1:BasketBallStudent
+    lateinit var s2:BasketBallStudent
+    lateinit var s3:SoccerStudent
+    lateinit var s4:SoccerStudent
+    lateinit var s5:BaseBallStudent
+    lateinit var s6:BaseBallStudent
+
+    // 각 객체를 생성한다.
+    init{
+        scanner  = Scanner(System.`in`)
+
+        s1 = BasketBallStudent()
+        s2 = BasketBallStudent()
+        s3 = SoccerStudent()
+        s4 = SoccerStudent()
+        s5 = BaseBallStudent()
+        s6 = BaseBallStudent()
+    }
+
+    // 학생들의 정보를 입력받는 기능
+    fun inputStudentsInfo(){
+        s1.inputStudentInfo(scanner)
+        s2.inputStudentInfo(scanner)
+        s3.inputStudentInfo(scanner)
+        s4.inputStudentInfo(scanner)
+        s5.inputStudentInfo(scanner)
+        s6.inputStudentInfo(scanner)
+    }
+
+    // 학생들의 정보를 출력하는 기능
+    fun printStudentsInfo(){
+        s1.printStudentInfo()
+        s2.printStudentInfo()
+        s3.printStudentInfo()
+        s4.printStudentInfo()
+        s5.printStudentInfo()
+        s6.printStudentInfo()
+    }
+
+    // 학생들의 행동 메서드를 호출하는 메서드
+    fun doStudent(){
+        s1.running()
+        s1.shooting()
+        s2.running()
+        s2.shooting()
+        s3.running()
+        s3.outting()
+        s4.running()
+        s4.outting()
+        s5.running()
+        s5.doHomeRun()
+        s6.running()
+        s6.doHomeRun()
+    }
+}
 
 // 각 운동부 학생들이 상속받을 클래스
 open class Student(var partName:String){
@@ -121,8 +188,48 @@ class BasketBallStudent : Student("농구부"){
 
 // 축구부 학생
 class SoccerStudent : Student("축구부"){
-    var outCnt = 0
+    // 퇴장 개수
+    var outCount = 0
+
+    // 퇴장 당하는 기능
+    fun outting(){
+        println("$partName ${studentName}이/가 퇴장 당합니다")
+    }
+
+    // 학생 정보를 입력받는 기능
+    override fun inputStudentInfo(scanner: Scanner) {
+        super.inputStudentInfo(scanner)
+        print("퇴장 개수 : ")
+        outCount = scanner.nextInt()
+    }
+
+    // 학생 정보를 출력하는 기능
+    override fun printStudentInfo() {
+        super.printStudentInfo()
+        println("총 퇴장 개수 : ${outCount}개")
+    }
 }
 
 // 야구부 학생
-class BaseBallStudent : Student("야구부")
+class BaseBallStudent : Student("야구부"){
+    // 홈런 개수
+    var homeRunCount = 0
+
+    // 홈런 치는 기능
+    fun doHomeRun(){
+        println("$partName ${studentName}이/가 홈런을 칩니다")
+    }
+
+    // 학생 정보를 입력받는 기능
+    override fun inputStudentInfo(scanner: Scanner) {
+        super.inputStudentInfo(scanner)
+        print("퇴장 개수 : ")
+        homeRunCount = scanner.nextInt()
+    }
+
+    // 학생 정보를 출력하는 기능
+    override fun printStudentInfo() {
+        super.printStudentInfo()
+        println("총 홈런 개수 : ${homeRunCount}개")
+    }
+}
