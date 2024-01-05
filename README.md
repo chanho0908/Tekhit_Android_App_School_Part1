@@ -21,6 +21,7 @@
 > + [Kotlin_AccessModifier](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin18_AccessModifier/main.kt)
 > + [Kotlin_Property](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin19_Property/main.kt)
 > + [Kotlin_Overriding](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin21_Overriding/main.kt)
-> + [Kotlin_LateInit](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotline20_LateInit/main.kt)
+> + [Kotlin_LateInit](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin20_LateInit/main.kt)
 ### 2024/01/05
-> + [Kotlin_Any]
+> + [Kotlin_Any](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin22_Any/main.kt)
+> + [Kotlin_ThisSuper](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin23_ThisSuper/main.kt)
