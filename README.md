@@ -16,9 +16,11 @@
 ### 2024/01/03
 > + [Kotlin Constructor](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin15_Contructor/main.kt)
 > + [Kotlin Inherite](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin_16_inherite/main.kt)
-### 2024/01/03
+### 2024/01/04
 > + [Kotlin_package](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin17_package/kr/co/lion/main.kt)
 > + [Kotlin_AccessModifier](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin18_AccessModifier/main.kt)
 > + [Kotlin_Property](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin19_Property/main.kt)
 > + [Kotlin21_Overriding](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin21_Overriding/main.kt)
 > + [Kotline_LateInit](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotline20_LateInit/main.kt)
+### 2024/01/05
+> + [Kotlin_Any]
