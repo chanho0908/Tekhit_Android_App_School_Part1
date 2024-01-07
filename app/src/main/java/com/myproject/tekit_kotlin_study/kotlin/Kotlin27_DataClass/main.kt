@@ -48,4 +48,15 @@ fun main() {
 
     println("num1 : $num1")
     println("num2 : $num2")
+
+    println("num1 : $num1")
+    println("num2 : $num2")
+
+    // 첫번째 변수인 num3 에는 component1을 호출하여 반환하는 값이 저장되고
+    // 두번째 변수인 num4 에는 component2를 호출하여 반환하는 값이 저장된다.
+
+    val (num3, num4) = obj3
+    println("num3 : $num3")
+    println("num4 : $num4")
+
 }
