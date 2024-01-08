@@ -11,11 +11,12 @@ fun main(){
     printDirection(Direction2.SOUTH)
     printDirection2(Direction.EAST)
 
-    val r1 = printDirection(Direction2.SOUTH)
-    val r2 = printDirection2(Direction.EAST)
+    val r1 = getValue1(Direction2.SOUTH)
+    val r2 = getValue2(Direction.EAST)
 
     println("r1 : $r1")
     println("r2 : $r2")
+    printValue3(Number.TWO)
 }
 
 // 열거형 정의
@@ -52,6 +53,16 @@ fun printDirection2(dir:Direction){
         Direction.NORTH -> println("북쪽입니다")
         Direction.WEST -> println("서쪽입니다")
     }
+}
+
+fun getValue1(a1:Int) = when(a1){
+    Direction2.WEST -> "서쪽"
+    Direction2.EAST -> "동쪽"
+    Direction2.SOUTH -> "남쪽"
+    Direction2.NORTH -> "북쪽"
+    // 각각이 독립적인 변수들이 때문에 더 있을 수도 있지 않을까? 라는 것 때문에
+    // 반드시 else를 넣어줘야 한다.
+    else -> "아무방향"
 }
 
 // 열거형 사용
