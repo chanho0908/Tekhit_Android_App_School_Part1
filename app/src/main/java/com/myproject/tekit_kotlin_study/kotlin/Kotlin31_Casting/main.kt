@@ -65,6 +65,19 @@ fun main() {
     anyFunction(obj2)
     anyFunction(100)
     anyFunction("안녕하세요")
+
+    // 코틀린에서 사용하는 모든 기본 자료형들은 사실 클래스이다.
+    // 코틀린은 모든 값들 객체로 관리한다고 생각하시면 됩니다~
+    val str1 = "100"
+    val number1 = str1.toInt()
+    if(number1 is Int){
+        println("정수로 변환되었습니다.")
+    }
+
+    val str2 = number1.toString()
+    if(str2 is String){
+        println("문자열로 변환되었습니다.")
+    }
 }
 
 class SubClass1 : SuperClass1(){
