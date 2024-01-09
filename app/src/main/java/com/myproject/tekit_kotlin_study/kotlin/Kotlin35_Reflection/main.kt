@@ -1,4 +1,4 @@
-package com.myproject.tekit_kotlin_study.kotlin.Kotlin_Reflection
+package com.myproject.tekit_kotlin_study.kotlin.Kotlin35_Reflection
 
 import kotlin.reflect.KClass
 // 1. File > Project Structure 메뉴를 클릭한다
