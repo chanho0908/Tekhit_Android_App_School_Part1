@@ -73,5 +73,69 @@ fun main(){
     println("array1.get(0) : ${array1.get(0)}")
     println("array1.get(1) : ${array1.get(1)}")
 
+    // 다차원 배열 접근
+    println("array9[0][0] : ${array9[0][0]}")
+    println("array9[1][1] : ${array9[1][1]}")
 
+    println("array1 : ${array1.contentToString()}")
+
+    // 0 번째 기억 장소 새로운 값을 저장한다.
+    array1[0] = 100
+    println("0 번째에 100 설정 : ${array1.contentToString()}")
+
+    // [ ] = 값의 문법을 사용하면 set 을 호출한다.
+    array1.set(1, 200)
+    println("1 번째에 200 설정 : ${array1.contentToString()}")
+
+    // 배열에 추가한다.
+    // 원본 배열에 1000이 추가된 새로운 배열을 생성하여 반환한다.
+    // 배열은 절대 관리하는 기억장소의 개수를 변경시킬 수 없다.
+    val array10 = array1.plus(1000)
+    println("1000 추가(원본 유지) : ${array1.contentToString()}")
+    println("1000 추가(새롭게 생성된 배열 : ${array10.contentToString()}")
+
+    // 일부분을 가져온다.
+    // 지정된 순서값 범위에 해당하는 값들을 가지고 있는 새로운 배열을 생성한다.
+    // 순서값 1 ~ 3 - 1까지
+    val array11 = array1.sliceArray(1..3)
+    println("array11 : ${array11.contentToString()}")
+
+    // for문과 같이 사용
+    for(a1 in array1){
+        println(a1)
+    }
+
+    println("------------------------------------------------------")
+    // 배열이 제공하는 메서드들
+    println("첫 번째 값 : ${array1.first()}")
+    println("마지막 값 : ${array1.last()}")
+    println("30의 위치(존재하는 값) : ${array1.indexOf(30)}")
+    println("10000의 위치(없는 값) : ${array1.indexOf(10000)}")
+    println("평균 : ${array1.average()}")
+    println("총합 : ${array1.sum()}")
+    println("관리하는 기억장소의 개수 : ${array1.count()}")
+    println("관리하는 기억장소의 개수 : ${array1.size}")
+    println("30을 포함하는가 : ${array1.contains(30)}")
+    println("10000을 포함하는가 : ${array1.contains(10000)}")
+
+    println("30을 포함하는가 : ${30 in array1}")
+    println("10000을 포함하는가 : ${10000 in array1}")
+
+    println("최대 : ${array1.max()}")
+    println("최소 : ${array1.min()}")
+
+    val array12 = arrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+    // 배열이 관리하는 값의 순서를 랜덤하게 섞어 준다.
+    array12.shuffle()
+    println(array12.contentToString())
+
+    // 정렬(오름 차순)
+    // 정렬된 배열을 새롭게 생성해서 반환한다.
+    val array13 = array12.sortedArray()
+    println(array13.contentToString())
+
+    // 정렬(내림 차순)
+    val array14 = array12.sortedArrayDescending()
+    println(array14.contentToString())
 }
