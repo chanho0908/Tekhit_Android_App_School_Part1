@@ -28,7 +28,7 @@
 > + [Kotlin_Companion](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin25_Companion/main.kt)
 > + [Kotlin_DataClass](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin27_DataClass/main.kt)
 > + [Kotlin_Generic](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin28_Generic/main.kt)
-### 2024/01/06
+### 2024/01/09
 > + [Kotlin_InnerClass](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin29_InnerClass/main.kt)
 > + [Kotlin_Null](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin30_Null/main.kt)
 > + [Kotlin_Casting](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin31_Casting/main.kt)
@@ -45,3 +45,9 @@
 > + [Kotlin_HigherOrderFunction](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin44_HigherOrderFunction/main.kt)
 > + [Kotlin_ObjectLambda](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin45_ObjectLambda/main.kt)
 > + [Kotlin_Array](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin46_Array/main.kt)
+### 2024/01/10
+> + [Kotlin_String](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin47_String/main.kt)
+> + [Kotlin_List](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin48_List/main.kt)
+> + [Kotlin_Map](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin49_Map/main.kt)
+> + [Kotlin_ForEach](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin50_ForEach/main.kt)
+> + [Kotlin_Exception]
