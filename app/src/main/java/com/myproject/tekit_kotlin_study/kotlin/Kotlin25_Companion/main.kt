@@ -1,6 +1,8 @@
 package com.myproject.tekit_kotlin_study.kotlin.Kotlin25_Companion
 
 import com.myproject.tekit_kotlin_study.kotlin.Kotlin25_Companion.TestClass1.Companion.testMethod2
+import com.myproject.tekit_kotlin_study.kotlin.Kotlin25_Companion.TestClass2.Companion.kotlinMethod
+import com.myproject.tekit_kotlin_study.kotlin.Kotlin25_Companion.TestClass2.Companion.kotlinValue1
 
 // 정적 맴버
 // 변수인 경우에는 프로그램 전체에서 딱 하나만 만들어 사용하는 변수를 의미한다.
@@ -26,6 +28,9 @@ fun main(){
     TestClass1.testMethod2()
 
     t1.testMethod1()
+    println("=================================")
+    println(kotlinValue1)
+    println(kotlinMethod())
 
     // Java 파일에 정의된 static 멤버 사용
     println("JavaMain.a : ${JavaMain.a}")

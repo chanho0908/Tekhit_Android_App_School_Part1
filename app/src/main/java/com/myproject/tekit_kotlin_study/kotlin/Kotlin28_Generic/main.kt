@@ -2,7 +2,7 @@ package com.myproject.tekit_kotlin_study.kotlin.Kotlin28_Generic
 // Generic : 클래스를 작성할 때 프로퍼티, 매개변수 등에 설정되는 자료형을 객체를 생성할 때
 // 결정할 수 있도록 하는 개념
 
-fun main() {
+fun main(){
     // 제네릭 타입은 객체를 생성할 때 타입을 결정해줘야 한다.
     // T 타입으로 정의된 변수의 타입이 Int 로 결정된다.
     val t1 = TestClass1<Int>()
@@ -20,10 +20,14 @@ fun main() {
     // 불변성 : 객체를 생성할 때 설정한 제네릭과 같은 변수에 담을 수 있다.
     // 클래스간의 상속 관계에 상관없이 제네릭에 설정한 클래스 타입이 다르면 오류가 발생한다.
     val t5:TestClass3<SubClass1> = TestClass3<SubClass1>()
-    //val t6:TestClass1<SuperClass1> = TestClass3<SubClass1>()
-    //val t7:TestClass1<SuperClass1> = TestClass3<SubClass1>()
-    val t8: TestClass4<SubClass1> = TestClass4<SubClass1>()
-    val t9: TestClass4<SubClass1> = TestClass4<SubClass1>()
+    // val t6:TestClass3<SuperClass1> = TestClass3<SubClass1>()
+    // val t7:TestClass3<SubClass2> = TestClass3<SubClass1>()
+
+    // 공변성 : 변수에 설정한 제네릭이 객체를 생성했을 때 사용한 제네릭과 같거나 부모 클래스인 경우에
+    // 담을 수 있다.
+    val t8:TestClass4<SubClass1> = TestClass4<SubClass1>()
+    val t9:TestClass4<SuperClass1> = TestClass4<SubClass1>()
+    //val t10:TestClass4<SubClass2> = TestClass4<SubClass1>()
 
     // 반 공변성 : 변수에 설정한 제네릭이 객체를 생성했을 때 사용한 제네릭과 같거나 자식 클래스인 경우에
     // 담을 수 있다.
@@ -58,9 +62,7 @@ class SubClass2 : SubClass1()
 
 // 불변성 (제네릭에 키워드를 붙히지 않는다)
 class TestClass3<T>
-
 // 공변성
 class TestClass4<out A>()
-
 // 반 공변성
 class TestClass5<in A>()

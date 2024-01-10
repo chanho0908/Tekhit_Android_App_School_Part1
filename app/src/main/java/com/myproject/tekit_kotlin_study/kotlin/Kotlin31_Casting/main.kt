@@ -53,6 +53,7 @@ fun main() {
     // 이제 코틀린은 검사 대상 타입으로 변환까지 해준다.
     // obj6.subMethod1()
 
+
     if(obj6 is SubClass1){
         obj6.subMethod1()
     }

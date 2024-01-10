@@ -11,7 +11,7 @@ package com.myproject.tekit_kotlin_study.kotlin.Kotlin23_ThisSuper
 
 fun main(){
     val t1 = TestClass1()
-    //t1.testMethod1(1)
+    t1.testMethod1(1)
 
     val t2 = TestClass2()
     println("t2 : $t2")
@@ -61,7 +61,7 @@ class TestClass1{
     }
 
     fun testMethod3(){
-        println("TestClass1의 testMethod3")
+        println("나는 TestClass1의 testMethod3")
     }
 }
 
@@ -80,7 +80,7 @@ class TestClass2{
 }
 
 open class SuperClass1{
-    // 자식 클래스에서 동일한 이름의 프로퍼티를 만드는 것을 허용하겠다면 open 을 붙혀준다.
+    // 자식 클래스에서 동일한 이름의 프로퍼티를 만드는 것을 허용하겠다면 open을 붙혀준다.
     open var superValue1 = 100
 
     constructor(){

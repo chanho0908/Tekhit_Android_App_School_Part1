@@ -17,7 +17,7 @@ fun main() {
     var a2:TestClass1? = null
 
     // 변수에 null 값이 들어있는 상태에서 메서드를 호출한다.
-    a2!!.test1Method()
+    //a2!!.test1Method()
 
     // 변수에 null 값이 들어있는 상태에서 메서드를 호출한다.
     // 오류가 발생한다(NullPointerException)
@@ -41,8 +41,8 @@ fun main() {
     // null을 허용하는 타입의 변수 뒤에 !!를 붙혀서 null을 허용하는 타입의 값으로 변경한다.
     // 이 때 null 값이 들어 있으므로 변환때 오류가 발생한다.
     // 변수에 null아닌 객체의 주소값이 들어 있다는 것을 100% 보장할 수 있을 경우에만 사용한다.
-    val t6:TestClass1 = t3!!
-    println("t6 : $t6")
+    //val t6:TestClass1 = t3!!
+    //println("t6 : $t6")
 
     // 변수 ?: 기본값 : null 값을 허용하는 변수를 사용할 때 null이 들어가 있을 경우 객체 대신에
     // 기본값으로 설정되어 있는 것을 전달해 준다.
