@@ -99,8 +99,8 @@ fun printValue3(v1:Number){
     }
 
     when(v1.str){
-        "일" -> println("1입니다")
-        "이" -> println("2입니다")
-        "삼" -> println("3입니다")
+        "일" -> println("1 입니다")
+        "이" -> println("2 입니다")
+        "삼" -> println("3 입니다")
     }
 }

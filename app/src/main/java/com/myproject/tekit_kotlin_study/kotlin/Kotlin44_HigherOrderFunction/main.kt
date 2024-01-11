@@ -1,5 +1,5 @@
 package com.myproject.tekit_kotlin_study.kotlin.Kotlin44_HigherOrderFunction
-
+// 고차 함수 : 매개 변수로 함수를 받거나 함수를 반환하는 함수
 fun main(){
     // 고차 함수에 전달하는 함수는 익명 함수를 사용한다.
     val t1 = fun(x1: Int, x2: Int): Int{

@@ -6,9 +6,9 @@ fun main() {
     val obj2 = NumberClass.TwoClass(300)
     val obj3 = NumberClass.ThreeClass(100, 11.11)
 
-    obj1.numberMethod1()
-    obj2.numberMethod1()
-    obj3.numberMethod1()
+//    obj1.numberMethod1()
+//    obj2.numberMethod1()
+//    obj3.numberMethod1()
 
     checkNumber(obj1)
     checkNumber(obj2)
@@ -40,7 +40,7 @@ sealed class NumberClass{
 }
 
 // 매개 변수로 들어오는 객체의 클래스 타입에 따라 분기해 처리한다.
-// 함수의 매개변수에 sEaled 클래스 타입을 넣어준다.
+// 함수의 매개변수에 sealed 클래스 타입을 넣어준다.
 // 매개변수로 들어오는 객체의 클래스 타입에 따라 분기해 처리한다.
 // 함수의 매개변수에 Sealed 클래스 타입을 넣어준다.
 fun checkNumber(t1:NumberClass){
