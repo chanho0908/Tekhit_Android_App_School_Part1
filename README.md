@@ -50,4 +50,4 @@
 > + [Kotlin_List](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin48_List/main.kt)
 > + [Kotlin_Map](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin49_Map/main.kt)
 > + [Kotlin_ForEach](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin50_ForEach/main.kt)
-> + [Kotlin_Exception]
+> + [Kotlin_Exception](https://github.com/chanho0908/Tekit_Android_App_School/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin51_Exception/main.kt)
