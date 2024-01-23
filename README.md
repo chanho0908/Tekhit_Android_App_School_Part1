@@ -1,5 +1,7 @@
 ## Tekit Android App School 코틀린 문법
-출처 : Tekit android App School / soft campus 윤재성   
+#### 출처 : Tekit android App School / soft campus 윤재성   
+![image](https://github.com/chanho0908/Tekhit_Android_App_School_Part1/assets/84930748/eca09145-1d14-4817-a43a-3ec54358f5cc)
+
 ### [Blog Post](https://chanho-study.tistory.com/category/TEKIT%20ANDROID%20SCHOOL)
 ### 2023/12/27
 > + [kotlin 파일 컴파일 과정과 기본 변수 타입](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin05_Literal/main.kt)
