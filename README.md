@@ -1,4 +1,4 @@
-## Tekit Android App School 코틀린 문법
+## Tekhit Android App School 코틀린 문법
 #### 출처 : Tekit android App School / soft campus 윤재성   
 ![image](https://github.com/chanho0908/Tekhit_Android_App_School_Part1/assets/84930748/eca09145-1d14-4817-a43a-3ec54358f5cc)
 
