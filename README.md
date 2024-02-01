@@ -17,10 +17,10 @@
 > + [Kotlin BreakContinue](https://github.com/chanho0908/Tekhit_Android_App_School_Part1/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin13_BreakContinue/main.kt)
 > + [Kotlin OOPBasic](https://github.com/chanho0908/Tekhit_Android_App_School_Part1/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin14_OOPBasic/main.kt)
 ### 2024/01/03
-> + [Kotlin Constructor](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin15_Contructor/main.kt)
-> + [Kotlin Inherite](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/Week1/Kotlin_16_inherite/main.kt)
+> + [Kotlin Constructor](https://github.com/chanho0908/Tekhit_Android_App_School_Part1/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin15_Contructor/main.kt)
+> + [Kotlin Inherite](https://github.com/chanho0908/Tekhit_Android_App_School_Part1/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin16_inherite/main.kt)
 ### 2024/01/04
-> + [Kotlin_Property](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin19_Property/main.kt)
+> + [Kotlin_Property](https://github.com/chanho0908/Tekhit_Android_App_School_Part1/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin19_Property/main.kt)
 > + [Kotlin_Overriding](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin21_Overriding/main.kt)
 > + [Kotlin_LateInit](https://github.com/chanho0908/tekit_android_app_school/blob/master/app/src/main/java/com/myproject/tekit_kotlin_study/kotlin/Kotlin20_LateInit/main.kt)
 ### 2024/01/05
